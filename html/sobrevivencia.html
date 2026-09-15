@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dicas gerais de sobrevivência no Minecraft e formulário para montar seu plano de sobrevivência pessoal.">
+    <title>BioCraft - Sobrevivência</title>
+</head>
+
+<body>
+    <header>
+        <a href="main.html"> <img src="../img/icones/Titulo.png" alt="Título" width="250"></a>
+        <small>
+            <p><i>"Explore os biomas. Conheça a vida. Sobreviva ao mundo."</i></p>
+        </small>
+        <nav>
+            <a href="main.html">| Menu Principal</a> |
+            <a href="#sobre"> Sobre</a> |
+            <a href="#primeira-noite"> Primeira Noite</a> |
+            <a href="#recursos"> Recursos Essenciais</a> |
+            <a href="#plano"> Monte seu Plano</a> |
+        </nav>
+        <hr>
+    </header>
+    <main>
+    <article>
+    <section id="sobre">
+        <h2>⛏ Sobrevivência</h2>
+        <p>A <b>sobrevivência</b> no Minecraft envolve explorar o mundo, coletar recursos, enfrentar criaturas
+            hostis e se preparar para diferentes perigos. Boas estratégias ajudam o jogador a se manter seguro,
+            <br> evoluir seus equipamentos e aproveitar melhor cada bioma visitado.</p>
+    </section>
+    <hr>
+    <section id="primeira-noite">
+        <h3>A primeira noite</h3>
+        <p>Os primeiros minutos de qualquer mundo são dedicados a coletar <b>madeira</b>, criar ferramentas
+            básicas e montar um abrigo simples antes do anoitecer, quando criaturas hostis começam a surgir com
+            <br> mais frequência.</p>
+        <p>Um abrigo eficiente não precisa ser bonito: um buraco na terra fechado com blocos já é suficiente
+            para sobreviver à primeira noite em segurança.</p>
+    </section>
+    <hr>
+    <section id="recursos">
+        <h3>Recursos essenciais</h3>
+        <p>Alguns recursos são considerados prioridade em praticamente qualquer início de jogo:</p>
+        <ul>
+            <li>Madeira, para ferramentas e uma mesa de trabalho;</li>
+            <li>Pedra, para ferramentas mais resistentes;</li>
+            <li>Carvão, para tochas e iluminação;</li>
+            <li>Comida, vinda de animais, plantações ou frutas silvestres;</li>
+            <li>Ferro, para armaduras, armas e outros equipamentos avançados.</li>
+        </ul>
+        <p>Manter uma reserva desses itens torna qualquer expedição pelos biomas — como a <mark>Selva</mark> ou
+            o <mark>Oceano Quente</mark> — muito mais segura.</p>
+    </section>
+    <hr>
+    <section id="plano">
+        <h3>Monte seu plano de sobrevivência</h3>
+        <p>Preencha o formulário abaixo para montar (de brincadeira!) sua própria ficha de sobrevivência dentro
+            da BioCraft.</p>
+
+        <form action="#" method="get">
+            <p>
+                <label for="nome">Nome do seu jogador:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Ex: SteveDaSelva" required>
+            </p>
+
+            <p>
+                <label for="inicio">Data de início da sua jornada:</label><br>
+                <input type="date" id="inicio" name="inicio" required>
+            </p>
+
+            <p>
+                <label for="bioma">Bioma inicial favorito:</label><br>
+                <input type="text" id="bioma" name="bioma" list="lista-biomas"
+                    placeholder="Digite ou escolha um bioma">
+                <datalist id="lista-biomas">
+                    <option value="Selva">
+                    <option value="Campo de Cogumelos">
+                    <option value="Oceano Quente">
+                    <option value="Floresta Salpicada">
+                    <option value="Planície">
+                    <option value="Deserto">
+                </datalist>
+            </p>
+
+            <p>
+                <label for="cor-base">Cor da bandeira da sua base:</label><br>
+                <input type="color" id="cor-base" name="cor-base" value="#3fae2a">
+            </p>
+
+            <p>
+                <label for="dificuldade">Nível de dificuldade desejado (1 a 10):</label><br>
+                <input type="range" id="dificuldade" name="dificuldade" min="1" max="10" value="5">
+            </p>
+
+            <p>
+                <label for="print">Print do seu inventário atual (opcional):</label><br>
+                <input type="file" id="print" name="print" accept="image/*">
+            </p>
+
+            <p>
+                <label for="contato">E-mail para receber dicas de sobrevivência:</label><br>
+                <input type="email" id="contato" name="contato" placeholder="seuemail@exemplo.com" required>
+            </p>
+
+            <p>
+                <input type="submit" value="Salvar meu plano">
+                <input type="reset" value="Limpar formulário">
+            </p>
+        </form>
+    </section>
+    </article>
+    <br>
+    <aside>
+        <h3>Você sabia?</h3>
+        <p>Antigamente, a única forma de restaurar a barra de fome era <del>comer qualquer alimento</del>.
+            Hoje, <ins>diferentes alimentos recuperam quantidades diferentes de fome e saturação</ins>, tornando
+            a escolha do que comer parte da estratégia de sobrevivência.</p>
+    </aside>
+    <hr>
+    <br>
+    </main>
+    <footer>
+        <a href="main.html"> <img src="../img/icones/Titulo.png" alt="Título" width="160"></a> ©
+        <p><small><b>Fonte de Informações:</b> <a href="https://pt.minecraft.wiki/">https://pt.minecraft.wiki/</a></small></p>
+        <p><small><i>Projeto acadêmico sem fins lucrativos</i></small></p>
+    </footer>
+</body>
+
+</html>
